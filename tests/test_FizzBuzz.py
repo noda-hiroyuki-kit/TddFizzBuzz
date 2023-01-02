@@ -10,6 +10,12 @@ class TestFizzBuzz(object):
         # 実行 & 検証
         assert fizz_buzz.convert(1) == '1'
 
+    def test_2を渡すと文字列2を返す(self):
+        # 準備
+        fizz_buzz = FizzBuzz()
+        # 実行 & 検証
+        assert fizz_buzz.convert(2) == '2'
+
 
 if __name__ == '__main__':
     pytest.main()
