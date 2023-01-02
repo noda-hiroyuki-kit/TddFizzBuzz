@@ -20,6 +20,9 @@ class TestFizzBuzz(object):
     def test_3を渡すと文字列Fizzを返す(self, 前準備):
         assert fizz_buzz.convert(3) == 'Fizz'
 
+    def test_5を渡すと文字列Buzzを返す(self, 前準備):
+        assert fizz_buzz.convert(5) == 'Buzz'
+
 
 if __name__ == '__main__':
     pytest.main()
